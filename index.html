@@ -11,6 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=BioRhyme&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
     <header class="menu">
@@ -109,7 +113,7 @@
                 <figure class="card__proyecto">
                     <a href="#">
                         <img src="imagenes-portfolio/list.svg" alt="lista-icono">
-                        <figcaption>Todo App</figcaption>
+                        <figcaption>ToDo App</figcaption>
                     </a>
                 </figure>
                 <figure class="card__proyecto">
@@ -142,17 +146,17 @@
                         <article class="form-nombres">
                             <article class="nombres">
                                 <label for="firstname">Nombre</label>
-                                <input type="text" placeholder="Ej: Ada">
+                                <input type="text" placeholder="Ej: Ada" required>
                             </article>
                             <article class="nombres">
                                 <label  for="lastname">Apellido</label>
-                                <input type="text" placeholder="Ej: Lovelace">
+                                <input type="text" placeholder="Ej: Lovelace" required>
                             </article>
                         </article>
                         <label for="email">E-mail</label>
-                        <input type="text" placeholder="Ej: adalovelace@gmail.com">
+                        <input type="text" placeholder="Ej: adalovelace@gmail.com" required>
                         <label for="message">Mensaje</label>
-                        <textarea type="text" placeholder="Escriba su mensaje aquí"></textarea>
+                        <textarea type="text" placeholder="Escriba su mensaje aquí" required></textarea>
                         <button type="submit" class="boton">Enviar</button>
                     </form>
                 </section>
