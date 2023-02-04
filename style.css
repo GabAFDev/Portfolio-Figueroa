@@ -39,7 +39,7 @@ body{
     width: 100vw;
     background-color: var(--color-intensidad1);
     font-size: 0.8rem;
-    padding: 1rem 2rem;
+    padding: 1rem 4rem;
     box-shadow: 0 0 1.2rem var(--sombras);
     position: fixed;
 }
@@ -62,7 +62,7 @@ body{
 }
 
 main{
-    padding: 3rem 0rem 0rem;
+    padding: 3rem 0 0;
 }
 
 
@@ -124,11 +124,7 @@ main{
 
 
 .conocimientos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-color: var(--color-intensidad2);
-    padding: 2.5rem;
 }
 
 .conocimientos__mensaje{
@@ -198,7 +194,7 @@ div i{
 
 /*----------SECCIÓN: PROYECTOS-----------*/
 
-
+.conocimientos,
 .proyectos{
     display: flex;
     flex-direction: column;
@@ -364,6 +360,10 @@ footer{
 
 /* ------------------------------------------------HOVERS--------------------------------------------------------*/
 
+.menu__ul li a:hover,
+.footer__menu li:hover{
+    font-weight: 600;
+}
 
 .footer__redes a i:hover{
     background-color: var(--color-intensida4);
@@ -391,11 +391,6 @@ footer{
     background-color: var(--color-intensida4);
     color: var(--color-intensidad1);
     border: solid 1px var(--color-intensida4);
-}
-
-.menu__ul li:hover,
-.footer__menu li:hover{
-    font-weight: 600;
 }
 
 
