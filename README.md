@@ -5,13 +5,16 @@ El proyecto consiste en crear una página web que me permita mostrar mi trabajo 
 
 ## Estado del proyecto ##
 La página web es funcional en un 80%, se esperan las siguientes mejoras en el corto plazo:
- -Completar acción del formulario para que el botón "enviar" efectivamente suba un formulario que me llegue.
- -Linkear las cards de los proyectos con las respectivas páginas que vaya desarrollando.
- -Agregar pequeñas animaciones.
+
+  -Completar acción del formulario para que el botón "enviar" efectivamente suba un formulario que me llegue.
+
+  -Linkear las cards de los proyectos con las respectivas páginas que vaya desarrollando.
+
+  -Agregar pequeñas animaciones.
 
 ## Link a mi portafolio ##
 
 https://legendary-rabanadas-2d6a77.netlify.app/
 
 ## Derechos de autor ##
-La web se desarrolló en un contexto de aprendizaje y siguiento un modelo proporcionado por ADA ITW. Más allá de eso, la paleta de colores fue seleccionada por su autora. 
+La web se desarrolló en un contexto de aprendizaje y siguiendo un modelo proporcionado por ADA ITW. Más allá de eso, la paleta de colores fue seleccionada por su autora. 
